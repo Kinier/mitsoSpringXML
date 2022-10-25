@@ -3,7 +3,7 @@ import java.util.Random;
 /**
  * Produces an alphanumeric string.
  */
-public class Calculator implements StringGenerator {
+public class Calculator {
     private double a = 0,c = 0;
     private String b;
     private double D;
@@ -12,7 +12,6 @@ public class Calculator implements StringGenerator {
         this.b = b;
         this.c = c;
     }
-    @Override
     public String generate() {
         StringBuilder result = new StringBuilder();
         switch(b){
